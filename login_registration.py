@@ -1,4 +1,4 @@
-#Откройте http://practice.automationtesting.in/
+﻿#Откройте http://practice.automationtesting.in/
 #Нажмите на вкладку "My Account
 #В разделе " Register", введите email для регистрации
 #В разделе " Register", введите пароль для регистрации
@@ -26,7 +26,6 @@ driver.quit()
 #В разделе " Login", введите пароль для логина
 #Нажмите на кнопку "Login"
 #Добавьте проверку, что на странице есть элемент "Logout"
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
